@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
 if (!empty($_SESSION['active'])) {
     header('location: src/');
@@ -56,7 +58,7 @@ if (!empty($_SESSION['active'])) {
                         <div class="col-lg-5">
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
                                 <div class="card-header text-center">
-                                    <img class="img-thumbnail" src="assets/img/logo.png" width="100">
+                                    <img class="img-thumbnail" src="assets/img/Logo1.jpg" width="100">
                                     <h3 class="font-weight-light my-4">Iniciar Sessión</h3>
                                 </div>
                                 <div class="card-body">
